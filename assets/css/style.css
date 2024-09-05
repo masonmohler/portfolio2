@@ -1,0 +1,66 @@
+/*  --------------- Box Sizing -----------------  */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*  --------------- Utility Classes -----------------  */
+
+.container {
+  width: 90vw;
+  margin: 2rem 4rem;
+}
+
+/*  --------------- Global Styles -----------------  */
+body {
+  font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  background-color: #0e1111;
+  color: #fff;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0 10px;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  max-width: 25vw;
+}
+
+.main-nav a {
+  text-decoration: none;
+  font-size: 2rem;
+  margin-top: 2rem;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.6s;
+}
+
+.main-nav a:hover {
+  color: #0e1111;
+  box-shadow: inset 10em 0em #fff;
+}
+
+p {
+  font-size: 2rem;
+  margin-top: 4rem;
+  padding: 0 10px;
+}
