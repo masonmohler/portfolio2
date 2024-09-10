@@ -14,9 +14,12 @@ html {
 .container {
   width: 90vw;
   margin: 2rem 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 /*  --------------- Global Styles -----------------  */
+
 body {
   font-family: "Baskervville SC", serif;
   font-weight: 400;
@@ -39,14 +42,13 @@ h2 {
 .main-nav {
   display: flex;
   flex-direction: column;
-  margin-top: 2rem;
-  max-width: 25vw;
+  align-items: flex-end;
 }
 
 .main-nav a {
   text-decoration: none;
-  font-size: 2rem;
-  margin-top: 2rem;
+  font-size: 3rem;
+  margin-top: 1rem;
   padding: 10px;
   text-transform: uppercase;
   font-weight: 600;
@@ -56,11 +58,15 @@ h2 {
 
 .main-nav a:hover {
   color: #0e1111;
-  box-shadow: inset 10em 0em #fff;
+  box-shadow: inset 0em 2em 0em 0em #fff;
 }
 
 p {
   font-size: 2rem;
   margin-top: 4rem;
   padding: 0 10px;
+}
+
+.bottomhalf {
+  background-color: #fff;
 }
