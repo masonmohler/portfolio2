@@ -18,6 +18,13 @@ html {
   grid-template-columns: 1fr 1fr;
 }
 
+.regContainer {
+  width: 90vw;
+  margin: 2rem 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+}
+
 /*  --------------- Global Styles -----------------  */
 
 body {
@@ -76,7 +83,10 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: space-between;
+}
+
+.secondary-nav a {
+  margin-bottom: 1rem;
 }
 
 .secondary-nav a:last-child {
@@ -88,6 +98,11 @@ nav a:hover {
 
 p {
   font-size: 2rem;
+  margin: 0;
+  line-height: 2rem;
+}
+
+.mainDes {
   margin: 0;
   margin-top: 2.2rem;
   padding-bottom: 2rem;
@@ -106,4 +121,60 @@ p {
   padding: 0;
   position: relative;
   margin-top: 2rem;
+}
+
+.projectImg {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  margin-top: 1.6rem;
+  grid-area: img;
+}
+
+.linkButton {
+  text-align: center;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 1rem;
+  background-color: #fff;
+  color: #0e1111;
+  width: 15vw;
+  align-self: center;
+  font-size: 1.6rem;
+  grid-area: button;
+  justify-self: center;
+  width: 80%;
+  transition: 0.4s;
+}
+
+.linkButton:hover {
+  background-color: #0e1111;
+  color: #fff;
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+}
+
+.projectCard {
+  display: grid;
+  flex-direction: column;
+  margin-bottom: 3rem;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas:
+    "title title"
+    "img img"
+    "descrip button";
+}
+
+.projectDes {
+  margin: 2rem 0 2rem 0;
+  grid-area: descrip;
+}
+
+.projectDes p {
+  font-size: 1.6rem;
+}
+
+.projectTitle {
+  font-size: 3.4rem;
+  grid-area: title;
 }
