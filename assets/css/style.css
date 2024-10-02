@@ -29,7 +29,7 @@ html {
 
 body {
   font-family: "Josefin Sans", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   background-color: #0e1111;
   color: #fff;
 }
@@ -109,6 +109,15 @@ p {
   border-bottom: 10px solid;
 }
 
+.about {
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.aboutMe {
+  border-bottom: 10px solid;
+}
+
 #particles-js {
   width: 100%;
   height: 45vh;
@@ -177,4 +186,10 @@ p {
 .projectTitle {
   font-size: 3.4rem;
   grid-area: title;
+}
+
+ul li {
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
 }
