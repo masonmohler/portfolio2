@@ -12,6 +12,9 @@ I specialize in aesthetic web design and writing clean, efficient, and maintaina
 - **CSS3**: Flexbox, Grid, animations, responsive design
 - **JavaScript**: DOM manipulation, ES6+, event handling
 - **JQuery**: Form validation, RESTful API interactions
+- **Node.js**: Backend development, file system operations, authentication
+- **Express.js**: RESTful API design, middleware, authentication, routing
+- **PostgreSQL**: Database design, querying with SQL, data relationships, CRUD operations
 - **Version Control**: Git, GitHub
 - **Soft Skills**: Leadership, Administration, Project Management
 
