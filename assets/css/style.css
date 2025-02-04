@@ -210,6 +210,7 @@ ul li {
     grid-template-columns: 1fr;
     margin: 0;
     margin: 2rem;
+    width: 80vw;
     justify-self: center;
   }
 
@@ -231,6 +232,7 @@ ul li {
     margin: 0;
     margin: 2rem;
     grid-template-columns: 1fr;
+    width: 80vw;
   }
 
   .secondary-nav {
@@ -246,8 +248,16 @@ ul li {
       "button";
   }
 
+  .projectTitle {
+    font-size: 2.4rem;
+  }
+
   .projectDes {
     margin-bottom: 1rem;
+  }
+
+  .projectDes p {
+    font-size: 1.4rem;
   }
 
   .linkButton {
